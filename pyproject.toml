@@ -1,0 +1,17 @@
+[project]
+name = "casefile"
+version = "0.1.0"
+description = "Bounded multi-agent claims triage: typed handoffs, snapshots, cost ceilings and a human payout gate"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["casefile"]
