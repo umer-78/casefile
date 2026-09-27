@@ -1,5 +1,7 @@
 # casefile
 
+[![CI](https://github.com/umer-78/casefile/actions/workflows/ci.yml/badge.svg)](https://github.com/umer-78/casefile/actions/workflows/ci.yml)
+
 [![Casefile: the live demo](.github/preview.jpg)](https://umer-78.github.io/casefile/)
 
 **Live demo:** https://umer-78.github.io/casefile/ (step through 30 recorded claim runs, agent by agent, up to the human gate)
@@ -89,3 +91,7 @@ pytest -q
 python -m casefile bench
 python -m casefile.demo    # rebuild the live demo's data in docs/
 ```
+
+## Licence
+
+MIT licence (see [LICENSE](LICENSE)).
