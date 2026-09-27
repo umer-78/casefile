@@ -36,7 +36,7 @@
       <section class="card" id="claim">
         <h2>Step through a claim</h2>
         <p class="sub">The documents are what the extractor reads. Each step is one agent's turn; the whole claim state is saved after every step, so any run can resume from any point and end the same way.</p>
-        <div class="controls"><label for="pick">Claim</label><select id="pick"></select></div>
+        <div class="controls"><label for="pick">Claim</label><select id="pick" data-fx-step></select></div>
         <div class="grid3" id="docs"></div>
         <div class="steps" id="rail" style="margin-top:16px"></div>
         <div class="controls" style="margin-top:12px"><button class="btn" id="prev" type="button">← Back</button><button class="btn primary" id="next" type="button">Next step →</button><span class="muted small" id="where"></span></div>
