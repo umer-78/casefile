@@ -1,5 +1,7 @@
 # casefile
 
+**Live demo:** https://umer-78.github.io/casefile/ (step through 30 recorded claim runs, agent by agent, up to the human gate)
+
 Claims triage for an auto insurer. A supervisor coordinates three specialist agents:
 
 - an **extractor** that reads the claim packet;
@@ -83,4 +85,5 @@ approve(store, "CLM-0001", "adjuster-7")                        # the only way a
 pip install -e '.[dev]'
 pytest -q
 python -m casefile bench
+python -m casefile.demo    # rebuild the live demo's data in docs/
 ```
