@@ -1,5 +1,7 @@
 # casefile
 
+[![Casefile: the live demo](.github/preview.jpg)](https://umer-78.github.io/casefile/)
+
 **Live demo:** https://umer-78.github.io/casefile/ (step through 30 recorded claim runs, agent by agent, up to the human gate)
 
 Claims triage for an auto insurer. A supervisor coordinates three specialist agents:
