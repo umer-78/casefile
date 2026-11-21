@@ -20,7 +20,7 @@ import time
 from dataclasses import asdict, dataclass
 
 from . import agents
-from .messages import Extracted, Findings, Recommendation, Review
+from .messages import Extracted, Findings, Recommendation
 
 SYSTEM_TOKENS = 350                  # each node's instructions, metered as a model would be
 MAX_OUT = {"extractor": 300, "investigator": 150, "reviewer": 80, "recommend": 150}   # each node's max_tokens
